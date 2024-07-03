@@ -1,0 +1,20 @@
+{
+  "name": "soldra",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.3.1"
+  },
+  "dependencies": {
+    "@walletconnect/web3wallet": "^1.12.3",
+    "@web3modal/solana": "^5.0.3",
+    "axios": "^1.7.2",
+    "rpc-websockets": "^7.9.0"
+  }
+}
